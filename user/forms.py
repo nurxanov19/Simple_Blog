@@ -19,7 +19,7 @@ class ProfileUpdateForm(forms.ModelForm):
 
     class Meta:
         model = Profile
-        fields = ['user', 'bio', 'email', 'avatar']
+        fields = ['bio', 'email', 'avatar']
 
     def __init__(self, *args, **kwargs):
         user = kwargs.pop('user', None)
