@@ -1,0 +1,15 @@
+asgiref
+dj-database-url
+Django
+django-ckeditor
+django-js-asset
+djangorestframework
+gunicorn
+packaging
+pillow
+psycopg2
+python-dotenv
+sqlparse
+typing_extensions
+whitenoise
+
